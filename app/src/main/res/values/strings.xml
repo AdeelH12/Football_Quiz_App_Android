@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizDemo</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/6</string>
+
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="question_1">Liverpool is the most successful english club in europe</string>
+    <string name="question_2">Steven Gerrard has won a league title</string>
+    <string name="question_3">Xabi Alonso missed a penalty in the 2005 champions league final </string>
+    <string name="question_4">Brendan Rodgers nearly won the league</string>
+    <string name="question_5">Liverpool sold Suarez for 50 million</string>
+    <string name="question_6">Liverpool won the league under Rafa Benitez</string>
+
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0392b"
+    tools:context="com.adeel.android.quizdemo.MainActivity">
+
+    <TextView
+        android:text="Liverpool is the most successful english club in europe"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView"
+        android:textColor="@android:color/background_light"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_height="150dp"/>
+
+    <Button
+        android:id="@+id/falsebtn"
+        android:text="False"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="166dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#2c3e50"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text="True"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/falsebtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/truebtn"
+        android:background="#27ae60"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="textEnd"
+        android:textSize="25sp"
+        android:layout_width="150dp"
+        android:textColor="@android:color/background_light"
+        android:text="Score 0/6"
+        android:layout_above="@+id/truebtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="24dp"/>
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:indeterminate="false" />
+
+</RelativeLayout>
